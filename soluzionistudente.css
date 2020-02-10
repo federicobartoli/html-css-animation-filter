@@ -5,6 +5,15 @@
 }
 
 .ex-2-square:active {
-    transition: 2s;
+    transition: 5s;
     width: 3000%;
+}
+
+.ex-3-square {
+    border-radius: 0%;
+    transition: 5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
 }
