@@ -70,3 +70,36 @@
     border-radius: 50px;
     transform: scaleX(0.5);
 }
+
+.ex-10-icon {
+    animation: rotolo 1s  infinite;
+}
+
+@keyframes rotolo {
+    0% {
+        transform: rotate(1turn);
+
+    }
+
+    50% {
+        filter: blur(1px);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: rotolo2 1s linear infinite;
+}
+
+@keyframes rotolo2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(300deg);
+    }
+
+   100% {
+        transform: rotate(0deg);
+    }
+}
