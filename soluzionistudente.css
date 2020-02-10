@@ -135,3 +135,7 @@
 .ex-12-button:hover .ex-12-bottom-white {
     animation: move 1s linear infinite;
 }
+
+.ex-13-button:hover {
+    animation: rotolo 1s linear infinite;
+}
